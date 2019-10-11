@@ -1,0 +1,65 @@
+{
+  "name": "员工姓名，根据不同国家的规则将页面上填写的姓，中间名，名拼接起来",
+  "sn": "员工sn，页面上的（员工id）",
+  "identityCard": "身份证",
+  "otherIdentify": "其它识别号",
+  "ncCode": "NC人员档案编码",
+  "lastName": "姓",
+  "middleName": "中间名",
+  "firstName": "名",
+  "sex": "性别",
+  "maritalStatus": "婚姻状况",
+  "nationality": "国籍",
+  "birth": 1,//出生日期（long）epochtime,
+  "homeAddress" : "家庭住址",
+  "mobilePhone": "手机号码",
+  "homePhone": "家庭电话",
+  "mail": "工作邮箱",
+  "otherMail": "其它邮箱",
+  "roles": [
+    "职位，后台支持多个职位，这里如果有一个的话，array里面放一个就可以了"
+  ],
+  "workType": "工作类别",
+  "hireStatus": "雇佣状态",
+  "hireFrom": 1,//雇佣开始日期（long）epochtime,
+  "hireTo": 1,//雇佣结束日期（long）epochtime,
+  "expenseType": "报销级别",
+  "openingBank": "开户银行",
+  "bankProvince": "银行所在省（市）",
+  "bankCity": "银行所在市（区）",
+  "wagesCard": "工资卡号",
+  "accountName": "银行账户名",
+  "accountNo": "银行账号",
+  "workAddress": "工作地址",
+  "belongToDepartment": {
+    "sn": "所属部门的sn"
+  },
+  "chargeToCostCenter": [
+    {
+      "costCenter": {
+        "code": "所属成本中心的code"
+      },
+      "rate": 1 //占比 decimal
+    }//，。。。。。。。。。。。多个
+  ],
+  "managers": [   //后台支持多个领导，但是此处只需要一个就可以了
+    {
+      "manager": {
+        "sn": "汇报给（经理的sn）"
+      },
+      "roles": []		//汇报的关系，客户没有要求，array空着就可以了
+    }
+  ],
+  "salaryComponents": [
+    {
+      "from": 1,//工资有效期从（long）epochtime,
+      "expire": 1 ,// 工资有效期至（long）epochtime,
+      "details": [1200,60.9]//	数组，存放工资组成部分，顺序和页面上的对应，此处1200代表工资组成部分第一个元素，以此类推，如果页面上某列没有填写，保存时数组中填充0.
+    }//。。。。。。。。。。。。可以填写多条
+  ],
+  "fnDeleagatees": [
+    {
+      "sn": "报销委托人的sn"
+    }
+  ]
+}

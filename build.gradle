@@ -1,0 +1,90 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.6.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+
+plugins {
+    id 'com.bmuschko.docker-spring-boot-application' version '4.10.0'
+    id 'org.springframework.boot' version '2.1.6.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.6.RELEASE'
+    id 'java'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "io.projectreactor:reactor-bom:Bismuth-RELEASE"
+    }
+}
+
+
+ext {
+    lombokVersion = '1.18.8'
+    commonsIoVersion = '2.6'
+    jacksonVersion = '2.9.9'
+    groovyVersion = '2.5.0'
+    bootVersion = '2.1.6.RELEASE'
+    seleniumVersion = '3.141.59'
+    springVersion = '5.0.10.RELEASE'
+    mysqlVersion = '8.0.11'
+    easyexcelVersion = '1.0.0-RELEASE'
+    rabbitMQVersion = '4.2.1'
+
+    misc = [
+            lombok         : "org.projectlombok:lombok:$lombokVersion",
+            commonsIo      : "commons-io:commons-io:$commonsIoVersion",
+            jacksonDatabind: "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion",
+            jacksonDataformat: "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:$jacksonVersion",
+            groovy         : "org.codehaus.groovy:groovy-all:$groovyVersion",
+            selenium       : "org.seleniumhq.selenium:selenium-java:$seleniumVersion",
+            easyexcel      : "com.alibaba:easyexcel:$easyexcelVersion",
+    ]
+
+    boot = [
+            starterAop      : "org.springframework.boot:spring-boot-starter-aop:$bootVersion",
+    ]
+
+    spring = [
+            jdbc              : "org.springframework:spring-jdbc:$springVersion",
+    ]
+
+    db = [
+            mysql : "mysql:mysql-connector-java:$mysqlVersion",
+    ]
+    mq = [
+            amqpClient : "com.rabbitmq:amqp-client:$rabbitMQVersion"
+    ]
+
+}
+
+group = 'com.isaac'
+version = '1.0'
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compile misc.lombok, misc.commonsIo, misc.jacksonDatabind, misc.groovy, misc.selenium, misc.jacksonDataformat,'io.projectreactor:reactor-core',mq.amqpClient
+}
+
+docker {
+    springBootApplication {
+        baseImage = 'java:8'
+        ports = [8080]
+        jvmArgs = ['-Dspring.profiles.active=production', '-Xmx2048m']
+        tag = "com.isaac/process-script:0.0.1"
+    }
+}

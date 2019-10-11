@@ -1,0 +1,67 @@
+[
+    {
+        "type": "固定资产 Fixed Assets",
+        "otherItem": "",
+        "assets": "固定资产",
+        "stationeryItem": "",
+        "consumablesItem": "",
+        "unit": "1",
+        "quantity": "1",
+        "price": "10",
+        "remarks": "固定资产"
+    },
+
+    {
+        "type": "文具及生活用品 Stationery And Necessary",
+        "otherItem": "",
+        "assets": "",
+        "stationeryItem": {
+            "code": "5号电池",
+            "name": "5号电池"
+        },
+        "consumablesItem": "",
+        "unit": "1",
+        "quantity": "2",
+        "price": "11.251",
+        "remarks": "电池"
+    },
+    {
+        "type": "文具及生活用品 Stationery And Necessary",
+        "otherItem": "",
+        "assets": "",
+        "stationeryItem": {
+            "code": "5号电池",
+            "name": "5号电池"
+        },
+        "consumablesItem": "",
+        "unit": "1",
+        "quantity": "2",
+        "price": "11.251",
+        "remarks": "电池"
+    },
+    {
+        "type": "低值耐耗品 Low Value Consumables",
+        "otherItem": "",
+        "assets": "",
+        "stationeryItem": "",
+        "consumablesItem": {
+            "code": "U盘128GB",
+            "name": "U盘128GB"
+        },
+        "unit": "1",
+        "quantity": "2",
+        "price": "333",
+        "remarks": ""
+    },
+    {
+        "type": "其他 Others",
+        "otherItem": "VPN",
+        "assets": "",
+        "stationeryItem": "",
+        "consumablesItem": "",
+        "unit": "1",
+        "quantity": "1",
+        "price": "1111",
+        "remarks": ""
+    }
+]

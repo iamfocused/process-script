@@ -1,0 +1,152 @@
+{
+  "rows": [
+    [
+      "固定资产 Fixed Assets",
+      "",
+      "1",
+      "",
+      "",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  ],
+  "headers": [
+    {
+      "block": "VA",
+      "controlType": "sbs",
+      "datePattern": null,
+      "enumValues": [
+        {
+          "id": "固定资产 Fixed Assets",
+          "name": "固定资产 Fixed Assets"
+        },
+        {
+          "id": "文具及生活用品 Stationery And Necessary",
+          "name": "文具及生活用品 Stationery And Necessary"
+        },
+        {
+          "id": "低值耐耗品 Low Value Consumables",
+          "name": "低值耐耗品 Low Value Consumables"
+        },
+        {
+          "id": "其他 Others",
+          "name": "其他 Others"
+        }
+      ],
+      "fieldType": "enum",
+      "id": "tbhdpurchasepu001_采购类别 Purchase Type_type_0_enum_sbs_$$VA",
+      "name": "采购类别 Purchase Type",
+      "readable": true,
+      "seq": 0,
+      "type": "enum",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_采购项(其他) Purchase Item(other)_otherItem_1_string_t1_$$A",
+      "name": "采购项(其他) Purchase Item(other)",
+      "readable": true,
+      "seq": 1,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_采购项(固定资产) Purchase Item(Fixed Assets)_assets_2_string_t1_$$A",
+      "name": "采购项(固定资产) Purchase Item(Fixed Assets)",
+      "readable": true,
+      "seq": 2,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "tree",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_采购项(文具及生活用品) Stationery And Necessary_stationeryItem_3_string_tree_$$A",
+      "name": "采购项(文具及生活用品) Stationery And Necessary",
+      "readable": true,
+      "seq": 3,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "tree",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_采购项(低值耐耗品) Low Value Consumables_consumablesItem_4_string_tree_$$A",
+      "name": "采购项(低值耐耗品) Low Value Consumables",
+      "readable": true,
+      "seq": 4,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_计量单位 Unit Of Measurement_unit_5_string_t1_$$A",
+      "name": "计量单位 Unit Of Measurement",
+      "readable": true,
+      "seq": 5,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t6",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_数量 Quantity_quantity_6_string_t6_$$A",
+      "name": "数量 Quantity",
+      "readable": true,
+      "seq": 6,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t11",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_单价 Unit Price_price_7_string_t11_$$A",
+      "name": "单价 Unit Price",
+      "readable": true,
+      "seq": 7,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t2",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdpurchasepu001_备注 Remarks_remarks_8_string_t2_$$A",
+      "name": "备注 Remarks",
+      "readable": true,
+      "seq": 8,
+      "type": "string",
+      "writable": true
+    }
+  ],
+  "tableName": "tbhdpurchasepu001"
+}

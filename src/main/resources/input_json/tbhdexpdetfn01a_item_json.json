@@ -1,0 +1,586 @@
+{
+  "headers": [
+    {
+      "block": "VA",
+      "controlType": "tree",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_收支项目a Payment item_ioitem_0_string_tree_$$VA",
+      "name": "收支项目 Payment item",
+      "readable": true,
+      "seq": 0,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "tree",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_成本中心 Costcenter_costcenter_1_string_tree_$$A",
+      "name": "成本中心 Costcenter",
+      "readable": true,
+      "seq": 1,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "tree",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_项目 Project_project_2_string_tree_$$A",
+      "name": "项目 Project",
+      "readable": true,
+      "seq": 2,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t3",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_开始时间 Start Time_depdate_3_string_t3_$$A",
+      "name": "开始时间 Start Time",
+      "readable": true,
+      "seq": 3,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t3",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_结束时间 End Time_arrdate_4_string_t3_$$A",
+      "name": "结束时间 End Time",
+      "readable": true,
+      "seq": 4,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "sbs",
+      "datePattern": null,
+      "enumValues": [
+        {
+          "id": "",
+          "name": ""
+        },
+        {
+          "id": "国内-1类",
+          "name": "国内-1类 First-class Chinese city"
+        },
+        {
+          "id": "国内-2类",
+          "name": "国内-2类 Second-class Chinese city"
+        },
+        {
+          "id": "国内-3类",
+          "name": "国内-3类 Third-class Chinese city"
+        },
+        {
+          "id": "国外-欧洲",
+          "name": "国外-欧洲 Euro"
+        },
+        {
+          "id": "国外-亚太",
+          "name": "国外-亚太 APAC"
+        },
+        {
+          "id": "国外-北美",
+          "name": "国外-北美 North America"
+        },
+        {
+          "id": "国外-其它",
+          "name": "国外-其它 Others"
+        }
+      ],
+      "fieldType": "enum",
+      "id": "tbhdexpdetfn01a_几类城市 City Category_citytype_5_enum_sbs_$$A",
+      "name": "几类城市 City Category",
+      "readable": true,
+      "seq": 5,
+      "type": "enum",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_出发地 Departure_departure_6_string_t1_$$A",
+      "name": "出发地 Departure",
+      "readable": true,
+      "seq": 6,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_目的地 Destination_destination_7_string_t1_$$A",
+      "name": "目的地 Destination",
+      "readable": true,
+      "seq": 7,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_出差地点 Travel to_desloc_8_string_t1_$$A",
+      "name": "出差地点 Travel to",
+      "readable": true,
+      "seq": 8,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t6",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_出差天数 Travel days_arrivaldays_9_string_t6_$$A",
+      "name": "出差天数 Travel days",
+      "readable": true,
+      "seq": 9,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "HA",
+      "controlType": "t11",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_餐饮费标准 Meal Std._mealstd_10_string_t11_$$HA",
+      "name": "餐饮费标准 Meal Std.",
+      "readable": true,
+      "seq": 10,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "HA",
+      "controlType": "t11",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_餐饮费超标金额 Meal Exc._mealextra_11_string_t11_$$HA",
+      "name": "餐饮费超标金额 Meal Exc.",
+      "readable": true,
+      "seq": 11,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "HA",
+      "controlType": "t11",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_住宿费标准 Accommodation Std._hotelstd_12_string_t11_$$HA",
+      "name": "住宿费标准 Accommodation Std.",
+      "readable": true,
+      "seq": 12,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "HA",
+      "controlType": "t11",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_住宿费超标金额 Accommodation Exc._hotelextra_13_string_t11_$$HA",
+      "name": "住宿费超标金额 Accommodation Exc.",
+      "readable": true,
+      "seq": 13,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "cny",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_金额 Amount_amount_14_string_cny_$$A",
+      "name": "金额 Amount",
+      "readable": true,
+      "seq": 14,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "cny",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_税额 Tax_tax_15_string_cny_$$A",
+      "name": "税额 Tax",
+      "readable": true,
+      "seq": 15,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "sbs",
+      "datePattern": null,
+      "enumValues": [
+        {
+          "id": "",
+          "name": ""
+        },
+        {
+          "id": "国内航班",
+          "name": "国内航班 Domestic Flight"
+        },
+        {
+          "id": "国际航班",
+          "name": "国际航班 International Flight "
+        }
+      ],
+      "fieldType": "enum",
+      "id": "tbhdexpdetfn01a_航班类型 Flight Type_flighttype_16_enum_sbs_$$A",
+      "name": "航班类型 Flight Type",
+      "readable": true,
+      "seq": 16,
+      "type": "enum",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "cny",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_机票价 Air Fare_airfare_17_string_cny_$$A",
+      "name": "机票价 Air Fare",
+      "readable": true,
+      "seq": 17,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "cny",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_燃油附加费 YQ_yq_18_string_cny_$$A",
+      "name": "燃油附加费 YQ",
+      "readable": true,
+      "seq": 18,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "cny",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_机场建设费 CN_cn_19_string_cny_$$A",
+      "name": "机场建设费 CN",
+      "readable": true,
+      "seq": 19,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t6",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_发票数量 Qty Invoiced_qtyinvoiced_20_string_t6_$$A",
+      "name": "发票数量 Qty Invoiced",
+      "readable": true,
+      "seq": 20,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_备注信息 Note_expdetail_21_string_t1_$$A",
+      "name": "备注信息 Note",
+      "readable": true,
+      "seq": 21,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "HA",
+      "controlType": "t1",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_利润中心 Profit Center_profitacc_22_string_t1_$$HA",
+      "name": "利润中心 Profit Center",
+      "readable": true,
+      "seq": 22,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "tree",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_设备类别 Equipment Type_category_23_string_tree_$$A",
+      "name": "设备类别 Equipment Type",
+      "readable": true,
+      "seq": 23,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "sbs",
+      "datePattern": null,
+      "enumValues": [
+        {
+          "id": "无",
+          "name": "无 NA"
+        },
+        {
+          "id": "语文",
+          "name": "语文 Chi."
+        },
+        {
+          "id": "数学",
+          "name": "数学 Math."
+        },
+        {
+          "id": "政治",
+          "name": "政治 Politics"
+        },
+        {
+          "id": "英语",
+          "name": "英语 Eng."
+        },
+        {
+          "id": "历史",
+          "name": "历史 His."
+        },
+        {
+          "id": "地理",
+          "name": "地理 Geo."
+        },
+        {
+          "id": "物理",
+          "name": "物理 Phy."
+        },
+        {
+          "id": "生物",
+          "name": "生物 Bio."
+        },
+        {
+          "id": "化学",
+          "name": "化学 Chem."
+        },
+        {
+          "id": "体育",
+          "name": "体育 P.E."
+        },
+        {
+          "id": "美术",
+          "name": "美术 Art"
+        },
+        {
+          "id": "音乐",
+          "name": "音乐 Music"
+        },
+        {
+          "id": "其它",
+          "name": "其它 Other"
+        }
+      ],
+      "fieldType": "enum",
+      "id": "tbhdexpdetfn01a_学科 Subject_discipline_24_enum_sbs_$$A",
+      "name": "学科 Subject",
+      "readable": true,
+      "seq": 24,
+      "type": "enum",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "auto",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_差旅申请号 Travel Request No_application_25_string_auto_$$A",
+      "keyField": "CODE",
+      "name": "差旅申请号 Travel Request No",
+      "nameField": "NAME",
+      "readable": true,
+      "seq": 25,
+      "type": "string",
+      "writable": true
+    },
+    {
+      "block": "A",
+      "controlType": "auto",
+      "datePattern": null,
+      "enumValues": [],
+      "fieldType": "string",
+      "id": "tbhdexpdetfn01a_供应商 Vendor_vendor_26_string_auto_$$A",
+      "isEnd": true,
+      "keyField": "CODE",
+      "name": "供应商 Vendor",
+      "nameField": "NAME",
+      "readable": true,
+      "seq": 26,
+      "type": "string",
+      "writable": true
+    }
+  ],
+  "rows": [
+    [
+      {
+        "code": "1001",
+        "name": "差旅-住宿Biz Trip-Accomodation"
+      },
+      {
+        "code": "01010101",
+        "name": "EORION_IT"
+      },
+      {
+        "code": "0101",
+        "name": "eim项目"
+      },
+      "1561305600000",
+      "1561305600000",
+      "国内-1类",
+      "",
+      "",
+      "1",
+      "1",
+      "",
+      "",
+      "900",
+      "0",
+      "1",
+      null,
+      "",
+      null,
+      null,
+      null,
+      "",
+      "1",
+      "",
+      "",
+      "无",
+      null,
+      null
+    ],
+    [
+      {
+        "code": "6002",
+        "name": "无形资产"
+      },
+      {
+        "code": "01010101",
+        "name": "EORION_IT"
+      },
+      {
+        "code": "0102",
+        "name": "eim项目1"
+      },
+      "1561305600000",
+      "1561305600000",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "1",
+      null,
+      "",
+      null,
+      null,
+      null,
+      "",
+      "1",
+      "",
+      {
+        "code": "0101",
+        "name": "电子设备"
+      },
+      "无",
+      null,
+      null
+    ],
+    [
+      {
+        "code": "111",
+        "name": "111"
+      },
+      {
+        "code": "01010101",
+        "name": "EORION_IT"
+      },
+      {
+        "code": "0102",
+        "name": "eim项目1"
+      },
+      "1561305600000",
+      "1561305600000",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "1",
+      null,
+      "",
+      null,
+      null,
+      null,
+      "",
+      "1",
+      "",
+      {
+        "code": "0101",
+        "name": "电子设备"
+      },
+      "无",
+      null,
+      null
+    ]
+  ],
+  "tableName": "tbhdexpdetfn01a"
+}

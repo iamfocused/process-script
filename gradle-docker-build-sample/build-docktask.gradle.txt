@@ -1,0 +1,61 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.6.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath("se.transmode.gradle:gradle-docker:1.2")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'application'
+apply plugin: 'docker'
+
+group = 'com.isaac'
+version = '1.0'
+sourceCompatibility = '1.8'
+targetCompatibility = 1.8
+mainClassName = "com.isaac.ProcessScriptApplication"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9'
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.5.0'
+}
+distDocker {
+    baseImage 'openjdk'
+    maintainer 'harrison'
+}
+jar {
+    baseName 'process-script'
+    version '1.0'
+}
+
+task dockerBuilder(type: Docker) {
+    applicationName = jar.baseName
+    tagVersion = jar.version
+    volume('/tmp')
+    addFile("${jar.baseName}-${jar.version}.jar", "app.jar")
+    entryPoint(["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", 'app.jar'])
+    exposePort(8080)
+    doFirst {
+        copy {
+            from jar
+            into stageDir
+        }
+    }
+}

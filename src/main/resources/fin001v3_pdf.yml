@@ -1,0 +1,116 @@
+data-mapping-definitions:
+  #变更来源
+  - pdf-field-name: sourceOfChange
+    activiti-variable-name: sourceOfChange
+    data-type: string
+  #变更单号
+  - pdf-field-name: processInstId
+    activiti-variable-name: processInstId
+    data-type: string
+  #变更申请人
+  - pdf-field-name: changeApplicant
+    activiti-variable-name: changeApplicant
+    data-type: string
+  #日期
+  - pdf-field-name: changeDate
+    activiti-variable-name: changeDate
+    data-type: string
+  #成本中心(部门)
+  - pdf-field-name: department
+    activiti-variable-name: department
+    data-type: object
+  #客户/供方
+  - pdf-field-name: customerSupplier
+    activiti-variable-name: customerSupplier
+    data-type: string
+  #产品名称
+  - pdf-field-name: productName
+    activiti-variable-name: productName
+    data-type: string
+  #日盈产品型号
+  - pdf-field-name: ryProductType
+    activiti-variable-name: ryProductType
+    data-type: string
+  #客户产品型号
+  - pdf-field-name: ctProductType
+    activiti-variable-name: ctProductType
+    data-type: string
+  #客户/供方联系人
+  - pdf-field-name: customerSupplierContact
+    activiti-variable-name: customerSupplierContact
+    data-type: string
+  #变更前
+  - pdf-field-name: changeBefore
+    activiti-variable-name: changeBefore
+    data-type: string
+  #变更后
+  - pdf-field-name: changeAfter
+    activiti-variable-name: changeAfter
+    data-type: string
+  #变更原因
+  - pdf-field-name: changeReason
+    activiti-variable-name: changeReason
+    data-type: string
+  #变更等级
+  - pdf-field-name: changeLevel
+    activiti-variable-name: changeLevel
+    data-type: string
+  #变更类型
+  - pdf-field-name: changeType
+    activiti-variable-name: changeType
+    data-type: string
+  #变更要求完成日期
+  - pdf-field-name: dueDate
+    activiti-variable-name: dueDate
+    data-type: string
+  #部门负责人
+  - pdf-field-name: managerName
+    activiti-variable-name: managerName
+    data-type: string
+  #对产品性能的影响
+  - pdf-field-name: performanceImpact
+    activiti-variable-name: performanceImpact
+    data-type: string
+  #对成本的影响
+  - pdf-field-name: costImpact
+    activiti-variable-name: costImpact
+    data-type: string
+  #对周期的影响
+  - pdf-field-name: cycleImpact
+    activiti-variable-name: cycleImpact
+    data-type: string
+  #对环境安全的影响
+  - pdf-field-name: environmentalImpact
+    activiti-variable-name: environmentalImpact
+    data-type: string
+  #其他影响
+  - pdf-field-name: otherImpact1
+    activiti-variable-name: otherImpact1
+    data-type: string
+  #其他影响
+  - pdf-field-name: otherImpact2
+    activiti-variable-name: otherImpact2
+    data-type: string
+  #其他影响
+  - pdf-field-name: otherImpact3
+    activiti-variable-name: otherImpact3
+    data-type: string
+  #可行性评审结论
+  - pdf-field-name: coreaction_result
+    activiti-variable-name: coreaction_result
+    data-type: string
+  #追加验证
+  - pdf-field-name: verification
+    activiti-variable-name: verification
+    data-type: string
+  #验证内容
+  - pdf-field-name: verificationContent
+    activiti-variable-name: verificationContent
+    data-type: string
+  #评审意见
+  - pdf-field-name: corecomments_result
+    activiti-variable-name: corecomments_result
+    data-type: string
+
+
+pdf-template-name: Change_App_Dev

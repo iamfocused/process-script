@@ -1,0 +1,11 @@
+{
+  "mail":{
+    "from":"sender@local",
+    "to" : ["receiver@local"],
+    "subject" : "subject",
+    "templateName" : "demo.ftl",
+    "templateData" : {
+      "tbhdexpdet_item_std":"[{\"a\":\"b\"}]"
+    }
+  }
+}

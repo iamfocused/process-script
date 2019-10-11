@@ -1,0 +1,272 @@
+data-mapping-definitions:
+  #变更来源
+  - pdf-field-name: sourceOfChange
+    activiti-variable-name: sourceOfChange
+    data-type: string
+  #变更单号
+  - pdf-field-name: processInstId
+    activiti-variable-name: processInstId
+    data-type: string
+  #变更申请人
+  - pdf-field-name: changeApplicant
+    activiti-variable-name: changeApplicant
+    data-type: string
+  #日期
+  - pdf-field-name: changeDate
+    activiti-variable-name: changeDate
+    data-type: string
+  #成本中心(部门)
+  - pdf-field-name: department
+    activiti-variable-name: department
+    data-type: object
+  #客户/供方
+  - pdf-field-name: customerSupplier
+    activiti-variable-name: customerSupplier
+    data-type: string
+  #产品名称
+  - pdf-field-name: productName
+    activiti-variable-name: productName
+    data-type: string
+  #日盈产品型号
+  - pdf-field-name: ryProductType
+    activiti-variable-name: ryProductType
+    data-type: string
+  #客户产品型号
+  - pdf-field-name: ctProductType
+    activiti-variable-name: ctProductType
+    data-type: string
+  #客户/供方联系人
+  - pdf-field-name: customerSupplierContact
+    activiti-variable-name: customerSupplierContact
+    data-type: string
+  #变更前
+  - pdf-field-name: changeBefore
+    activiti-variable-name: changeBefore
+    data-type: string
+  #变更后
+  - pdf-field-name: changeAfter
+    activiti-variable-name: changeAfter
+    data-type: string
+  #变更原因
+  - pdf-field-name: changeReason
+    activiti-variable-name: changeReason
+    data-type: string
+  #变更等级
+  - pdf-field-name: changeLevel
+    activiti-variable-name: changeLevel
+    data-type: string
+  #变更类型
+  - pdf-field-name: changeType
+    activiti-variable-name: changeType
+    data-type: string
+  #变更要求完成日期
+  - pdf-field-name: dueDate
+    activiti-variable-name: dueDate
+    data-type: string
+  #部门负责人
+  - pdf-field-name: managerName
+    activiti-variable-name: managerName
+    data-type: string
+
+  #变更验证方案
+  - pdf-field-name: changeVerificationSchema
+    activiti-variable-name: changeVerificationSchema
+    data-type: string
+
+  #风险评审计划完成日期
+  - pdf-field-name: riskApprovalDue
+    activiti-variable-name: riskApprovalDue
+    data-type: string
+
+  #初步批准计划完成日期
+  - pdf-field-name: preliminaryApprovalDue
+    activiti-variable-name: preliminaryApprovalDue
+    data-type: string
+
+  #试制和验证计划完成日期
+  - pdf-field-name: testAndVerifyDue
+    activiti-variable-name: testAndVerifyDue
+    data-type: string
+
+  #客户认可计划完成日期
+  - pdf-field-name: customerAcceptanceDue
+    activiti-variable-name: customerAcceptanceDue
+    data-type: string
+
+  #正式批准计划完成日期
+  - pdf-field-name: formalApprovalDue
+    activiti-variable-name: formalApprovalDue
+    data-type: string
+
+  #技术文件更新计划完成日期
+  - pdf-field-name: fileUpdateDue
+    activiti-variable-name: fileUpdateDue
+    data-type: string
+
+  #产品断点计划完成日期
+  - pdf-field-name: productBreakpointDue
+    activiti-variable-name: productBreakpointDue
+    data-type: string
+
+  #变更总结计划完成日期
+  - pdf-field-name: summaryOfChangeDue
+    activiti-variable-name: summaryOfChangeDue
+    data-type: string
+
+  - pdf-field-name: riskOf1
+    activiti-variable-name: riskOf1
+    data-type: string
+  - pdf-field-name: riskDesc1
+    activiti-variable-name: riskDesc1
+    data-type: string
+  - pdf-field-name: approvalDept1
+    activiti-variable-name: approvalDept1
+    data-type: object
+  - pdf-field-name: approvalPerson1
+    activiti-variable-name: approvalPerson1
+    data-type: string
+
+  - pdf-field-name: riskOf2
+    activiti-variable-name: riskOf2
+    data-type: string
+  - pdf-field-name: riskDesc2
+    activiti-variable-name: riskDesc2
+    data-type: string
+  - pdf-field-name: approvalDept2
+    activiti-variable-name: approvalDept2
+    data-type: object
+  - pdf-field-name: approvalPerson2
+    activiti-variable-name: approvalPerson2
+    data-type: string
+
+  - pdf-field-name: riskOf3
+    activiti-variable-name: riskOf3
+    data-type: string
+  - pdf-field-name: riskDesc3
+    activiti-variable-name: riskDesc3
+    data-type: string
+  - pdf-field-name: approvalDept3
+    activiti-variable-name: approvalDept3
+    data-type: object
+  - pdf-field-name: approvalPerson3
+    activiti-variable-name: approvalPerson3
+    data-type: string
+
+  - pdf-field-name: riskOf4
+    activiti-variable-name: riskOf4
+    data-type: string
+  - pdf-field-name: riskDesc4
+    activiti-variable-name: riskDesc4
+    data-type: string
+  - pdf-field-name: approvalDept4
+    activiti-variable-name: approvalDept4
+    data-type: object
+  - pdf-field-name: approvalPerson4
+    activiti-variable-name: approvalPerson4
+    data-type: string
+
+  - pdf-field-name: riskOf5
+    activiti-variable-name: riskOf5
+    data-type: string
+  - pdf-field-name: riskDesc5
+    activiti-variable-name: riskDesc5
+    data-type: string
+  - pdf-field-name: approvalDept5
+    activiti-variable-name: approvalDept5
+    data-type: object
+  - pdf-field-name: approvalPerson5
+    activiti-variable-name: approvalPerson5
+    data-type: string
+
+  - pdf-field-name: riskOf6
+    activiti-variable-name: riskOf6
+    data-type: string
+  - pdf-field-name: riskDesc6
+    activiti-variable-name: riskDesc6
+    data-type: string
+  - pdf-field-name: approvalDept6
+    activiti-variable-name: approvalDept6
+    data-type: object
+  - pdf-field-name: approvalPerson6
+    activiti-variable-name: approvalPerson6
+    data-type: string
+
+  - pdf-field-name: riskOf7
+    activiti-variable-name: riskOf7
+    data-type: string
+  - pdf-field-name: riskDesc7
+    activiti-variable-name: riskDesc7
+    data-type: string
+  - pdf-field-name: approvalDept7
+    activiti-variable-name: approvalDept7
+    data-type: object
+  - pdf-field-name: approvalPerson7
+    activiti-variable-name: approvalPerson7
+    data-type: string
+
+  - pdf-field-name: riskOf8
+    activiti-variable-name: riskOf8
+    data-type: string
+  - pdf-field-name: riskDesc8
+    activiti-variable-name: riskDesc8
+    data-type: string
+  - pdf-field-name: approvalDept8
+    activiti-variable-name: approvalDept8
+    data-type: object
+  - pdf-field-name: approvalPerson8
+    activiti-variable-name: approvalPerson8
+    data-type: string
+
+  - pdf-field-name: riskOf9
+    activiti-variable-name: riskOf9
+    data-type: string
+  - pdf-field-name: riskDesc9
+    activiti-variable-name: riskDesc9
+    data-type: string
+  - pdf-field-name: approvalDept9
+    activiti-variable-name: approvalDept9
+    data-type: object
+  - pdf-field-name: approvalPerson9
+    activiti-variable-name: approvalPerson9
+    data-type: string
+
+  - pdf-field-name: riskOf10
+    activiti-variable-name: riskOf10
+    data-type: string
+  - pdf-field-name: riskDesc10
+    activiti-variable-name: riskDesc10
+    data-type: string
+  - pdf-field-name: approvalDept10
+    activiti-variable-name: approvalDept10
+    data-type: object
+  - pdf-field-name: approvalPerson10
+    activiti-variable-name: approvalPerson10
+    data-type: string
+
+  - pdf-field-name: riskOf11
+    activiti-variable-name: riskOf11
+    data-type: string
+  - pdf-field-name: riskDesc11
+    activiti-variable-name: riskDesc11
+    data-type: string
+  - pdf-field-name: approvalDept11
+    activiti-variable-name: approvalDept11
+    data-type: object
+  - pdf-field-name: approvalPerson11
+    activiti-variable-name: approvalPerson11
+    data-type: string
+
+  - pdf-field-name: riskOf12
+    activiti-variable-name: riskOf12
+    data-type: string
+  - pdf-field-name: riskDesc12
+    activiti-variable-name: riskDesc12
+    data-type: string
+  - pdf-field-name: approvalDept12
+    activiti-variable-name: approvalDept12
+    data-type: object
+  - pdf-field-name: approvalPerson12
+    activiti-variable-name: approvalPerson12
+    data-type: string
+
+pdf-template-name: Change_App_Pro

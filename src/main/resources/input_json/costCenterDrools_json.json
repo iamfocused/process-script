@@ -1,0 +1,41 @@
+[
+  {
+    "costcenter": "01010101",
+    "project": "0101",
+    "ioitem": "1001",
+    "amount": "25",
+    "verifierfirst": "magnatest",
+    "verifiersecond": "magnatest",
+    "verifierthird": "magnatest",
+    "reverifierfirst": "magnatest",
+    "reverifiersecond": "magnatest",
+    "reverifierthird": "magnatest",
+    "ruleno": "1"
+  },
+  {
+    "costcenter": "01010101",
+    "project": "0101",
+    "ioitem": "1011",
+    "amount": "25",
+    "verifierfirst": "magnatest",
+    "verifiersecond": "magnatest",
+    "verifierthird": "magnatest",
+    "reverifierfirst": "magnatest",
+    "reverifiersecond": "magnatest",
+    "reverifierthird": "magnatest",
+    "ruleno": "1"
+  },
+  {
+    "costcenter": "01010101",
+    "project": "0103",
+    "ioitem": "2001",
+    "amount": "33",
+    "verifierfirst": "magnatest",
+    "verifiersecond": "magnatest",
+    "verifierthird": "magnatest",
+    "reverifierfirst": "magnatest",
+    "reverifiersecond": "magnatest",
+    "reverifierthird": "magnatest",
+    "ruleno": "2"
+  }
+]
