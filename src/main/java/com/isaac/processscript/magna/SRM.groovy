@@ -5,7 +5,7 @@ import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 
 def jsonSlurper = new JsonSlurper()
-def tbhddetail_item = jsonSlurper.parseText(JsonFileUtils.parseJsonFileToStringValue("magna.json"))
+def tbhddetail_item = jsonSlurper.parseText(JsonFileUtils.parseJsonFileToStringValue("magna/magna.json"))
 def tbhddetail_item_std = jsonSlurper.parseText("""
 [{"matinfo":{"code":"MAT001","name":"MAT001/大灯接触开关 ￥3"},"planqty":"10000","remainqty":"10000","prcprice":"3","orderdate":null,"orderqty":null,"batch":null,"deliveryqty":null,"deliverydate":null,"arrivaldate":null,"accnumber":null,"defnumber":null,"amount":null},{"matinfo":{"code":"MAT002","name":"MAT002/小红灯 ￥4.5"},"planqty":"20000","remainqty":"20000","prcprice":"4.5","orderdate":null,"orderqty":null,"batch":null,"deliveryqty":null,"deliverydate":null,"arrivaldate":null,"accnumber":null,"defnumber":null,"amount":null}]
 

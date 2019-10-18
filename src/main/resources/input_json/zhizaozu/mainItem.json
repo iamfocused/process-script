@@ -192,14 +192,14 @@
       "writable":true
     },
     {
-      "block":"HA",
+      "block":"A",
       "controlType":"t6",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_TMMT_加工时间（秒）_14_string_t6_$$HA",
+      "id":"tbheader1566744708879_TMMT_加工时间（秒）_14_string_t6_$$A",
       "name":"加工时间（秒）",
       "readable":true,
       "seq":14,
@@ -207,14 +207,14 @@
       "writable":true
     },
     {
-      "block":"HA",
+      "block":"A",
       "controlType":"t6",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_TMOP_工序时间（秒）_15_string_t6_$$HA",
+      "id":"tbheader1566744708879_TMOP_工序时间（秒）_15_string_t6_$$A",
       "name":"工序时间（秒）",
       "readable":true,
       "seq":15,
@@ -252,14 +252,14 @@
       "writable":true
     },
     {
-      "block":"A",
+      "block":"B",
       "controlType":"join",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_header1566746042674_工序物料清单_18_string_join_$$A",
+      "id":"tbheader1566744708879_header1566746042674_工序物料清单_18_string_join_$$B",
       "name":"工序物料清单",
       "readable":true,
       "seq":18,
@@ -267,14 +267,14 @@
       "writable":true
     },
     {
-      "block":"A",
+      "block":"C",
       "controlType":"join",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_header-1566746045871_工序工具清单_19_string_join_$$A",
+      "id":"tbheader1566744708879_header-1566746045871_工序工具清单_19_string_join_$$C",
       "name":"工序工具清单",
       "readable":true,
       "seq":19,
@@ -282,14 +282,14 @@
       "writable":true
     },
     {
-      "block":"A",
+      "block":"D",
       "controlType":"join",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_header-1566746045367_工序检验指标_20_string_join_$$A",
+      "id":"tbheader1566744708879_header-1566746045367_工序检验指标_20_string_join_$$D",
       "name":"工序检验指标",
       "readable":true,
       "seq":20,
@@ -297,14 +297,14 @@
       "writable":true
     },
     {
-      "block":"A",
+      "block":"E",
       "controlType":"join",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_header-1566746044755_通用工步表_21_string_join_$$A",
+      "id":"tbheader1566744708879_header-1566746044755_通用工步表_21_string_join_$$E",
       "name":"通用工步表",
       "readable":true,
       "seq":21,
@@ -312,14 +312,14 @@
       "writable":true
     },
     {
-      "block":"A",
+      "block":"E",
       "controlType":"join",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_header-1566746165617_车削工步表_22_string_join_$$A",
+      "id":"tbheader1566744708879_header-1566746165617_车削工步表_22_string_join_$$E",
       "name":"车削工步表",
       "readable":true,
       "seq":22,
@@ -327,14 +327,14 @@
       "writable":true
     },
     {
-      "block":"A",
+      "block":"E",
       "controlType":"join",
       "datePattern":null,
       "enumValues":[
 
       ],
       "fieldType":"string",
-      "id":"tbheader1566744708879_header-1566746163577_铣削工步表_23_string_join_$$A",
+      "id":"tbheader1566744708879_header-1566746163577_铣削工步表_23_string_join_$$E",
       "name":"铣削工步表",
       "readable":true,
       "seq":23,
@@ -344,28 +344,76 @@
   ],
   "rows":[
     [
-      "111",
+      "1",
+      "通用工序",
       null,
+      null,
+      null,
+      "通用",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      "[]",
+      "[]",
+      null,
+      null,
+      null,
+      "1571363277505",
+      null,
+      null
+    ],
+    [
+      "2",
+      "车削工序",
       null,
       null,
       null,
       "车削",
       null,
       null,
-      "1",
-      "1",
-      "1",
-      "1",
+      null,
+      null,
+      null,
+      null,
       0,
-      3,
-      "[]",
-      "[]",
+      0,
       null,
       null,
       null,
       null,
-      "1568869434279",
+      null,
+      null,
+      "1571363308713",
       null
+    ],
+    [
+      "3",
+      "铣削",
+      null,
+      null,
+      null,
+      "铣削",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1571363321849"
     ]
   ],
   "tableName":"tbheader1566744708879"

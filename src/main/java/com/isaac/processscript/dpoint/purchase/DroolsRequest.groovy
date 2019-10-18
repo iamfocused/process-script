@@ -10,7 +10,7 @@ import java.util.stream.Collectors
  * 采购明细分组，并且计算每组的总价钱
  */
 def jsonSlurper = new JsonSlurper()
-def tbhdpurchasepu001_item_std_str = JsonFileUtils.parseJsonFileToStringValue("purchase.json")
+def tbhdpurchasepu001_item_std_str = JsonFileUtils.parseJsonFileToStringValue("dipont/purchase.json")
 def std = jsonSlurper.parseText(tbhdpurchasepu001_item_std_str)
 
 def types = std.groupBy({it.type})

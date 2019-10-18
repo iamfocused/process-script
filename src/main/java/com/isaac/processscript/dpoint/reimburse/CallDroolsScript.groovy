@@ -7,7 +7,7 @@ import groovy.json.JsonSlurper
 def jsonSlurper = new JsonSlurper()
 
 def specialDrools = []
-def tbhdexpdetfn01a_item_json = JsonFileUtils.parseJsonFileToStringValue("tbhdexpdetfn01a_item_json.json")
+def tbhdexpdetfn01a_item_json = JsonFileUtils.parseJsonFileToStringValue("dipont/tbhdexpdetfn01a_item_json.json")
 def tbhdexpdetfn01a_item = jsonSlurper.parseText(tbhdexpdetfn01a_item_json)
 
 //根据成本中心、收支项目分组——目的是金额这个条件，金额是当前成本中心+项目分到每个项目上的

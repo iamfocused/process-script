@@ -13,9 +13,9 @@ import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
 
 def slurper = new JsonSlurper()
-def droolsResult = slurper.parseText(JsonFileUtils.parseJsonFileToStringValue("costCenterDrools_json.json"))
+def droolsResult = slurper.parseText(JsonFileUtils.parseJsonFileToStringValue("dipont/costCenterDrools_json.json"))
 
-def tbhdexpdetfn01a_item_json = JsonFileUtils.parseJsonFileToStringValue("tbhdexpdetfn01a_item_json.json")
+def tbhdexpdetfn01a_item_json = JsonFileUtils.parseJsonFileToStringValue("dipont/tbhdexpdetfn01a_item_json.json")
 
 
 def groupMap = droolsResult.groupBy { it.ruleno }
