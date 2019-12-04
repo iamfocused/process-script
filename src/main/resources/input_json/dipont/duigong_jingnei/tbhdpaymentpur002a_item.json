@@ -1,0 +1,220 @@
+{
+  "rows":[
+    [
+      {
+        "code":"100102",
+        "name":"差旅-住宿Biz Trip-Accomodation"
+      },
+      {
+        "code":"01010101",
+        "name":"01010101/国际课程上海区域后勤部门"
+      },
+      {
+        "code":"0101",
+        "name":"英锐-B2C课程"
+      },
+      "1",
+      "无",
+      ""
+    ],
+    [
+      {
+        "code":"100201",
+        "name":"会议-住宿费Conference-Accommodation"
+      },
+      {
+        "code":"01010101",
+        "name":"01010101/国际课程上海区域后勤部门"
+      },
+      {
+        "code":"0102",
+        "name":"英锐-B2B课程"
+      },
+      "2",
+      "无",
+      ""
+    ],
+    [
+      {
+        "code":"100301",
+        "name":"培训-住宿费Training-Accommodation"
+      },
+      {
+        "code":"01010101",
+        "name":"01010101/国际课程上海区域后勤部门"
+      },
+      {
+        "code":"0201",
+        "name":"英倍学费"
+      },
+      "3",
+      "无",
+      ""
+    ],
+    [
+      {
+        "code":"100401",
+        "name":"出团、比赛、学生活动专用-签证费Camp/Tournament/Activity-Visa"
+      },
+      {
+        "code":"01010101",
+        "name":"01010101/国际课程上海区域后勤部门"
+      },
+      {
+        "code":"030101010001",
+        "name":"幼一/第一学期"
+      },
+      "4",
+      "无",
+      ""
+    ]
+  ],
+  "headers":[
+    {
+      "block":"VA",
+      "controlType":"tree",
+      "datePattern":null,
+      "enumValues":[
+
+      ],
+      "fieldType":"string",
+      "id":"tbhdpaymentpur002a_收支项目 Payment item_ioitem_0_string_tree_$$VA",
+      "name":"收支项目 Payment item",
+      "readable":true,
+      "seq":0,
+      "type":"string",
+      "writable":true
+    },
+    {
+      "block":"A",
+      "controlType":"tree",
+      "datePattern":null,
+      "enumValues":[
+
+      ],
+      "fieldType":"string",
+      "id":"tbhdpaymentpur002a_成本中心 Costcenter_costcenter_1_string_tree_$$A",
+      "name":"成本中心 Costcenter",
+      "readable":true,
+      "seq":1,
+      "type":"string",
+      "writable":true
+    },
+    {
+      "block":"A",
+      "controlType":"tree",
+      "datePattern":null,
+      "enumValues":[
+
+      ],
+      "fieldType":"string",
+      "id":"tbhdpaymentpur002a_项目 Project_project_2_string_tree_$$A",
+      "name":"项目 Project",
+      "readable":true,
+      "seq":2,
+      "type":"string",
+      "writable":true
+    },
+    {
+      "block":"A",
+      "controlType":"cny",
+      "datePattern":null,
+      "enumValues":[
+
+      ],
+      "fieldType":"string",
+      "id":"tbhdpaymentpur002a_付款金额 Amount_amount_5_string_cny_$$A",
+      "name":"付款金额 Amount",
+      "readable":true,
+      "seq":5,
+      "type":"string",
+      "writable":true
+    },
+    {
+      "block":"A",
+      "controlType":"sbs",
+      "datePattern":null,
+      "enumValues":[
+        {
+          "id":"无",
+          "name":"无 NA"
+        },
+        {
+          "id":"语文",
+          "name":"语文 Chi."
+        },
+        {
+          "id":"数学",
+          "name":"数学 Math."
+        },
+        {
+          "id":"政治",
+          "name":"政治 Politics"
+        },
+        {
+          "id":"英语",
+          "name":"英语 Eng."
+        },
+        {
+          "id":"历史",
+          "name":"历史 His."
+        },
+        {
+          "id":"地理",
+          "name":"地理 Geo."
+        },
+        {
+          "id":"物理",
+          "name":"物理 Phy."
+        },
+        {
+          "id":"生物",
+          "name":"生物 Bio."
+        },
+        {
+          "id":"化学",
+          "name":"化学 Chem."
+        },
+        {
+          "id":"体育",
+          "name":"体育 P.E."
+        },
+        {
+          "id":"美术",
+          "name":"美术 Art"
+        },
+        {
+          "id":"音乐",
+          "name":"音乐 Music"
+        },
+        {
+          "id":"其它",
+          "name":"其它 Other"
+        }
+      ],
+      "fieldType":"enum",
+      "id":"tbhdpaymentpur002a_学科 Subject_discipline_7_enum_sbs_$$A",
+      "name":"学科 Subject",
+      "readable":true,
+      "seq":7,
+      "type":"enum",
+      "writable":true
+    },
+    {
+      "block":"A",
+      "controlType":"t1",
+      "datePattern":null,
+      "enumValues":[
+
+      ],
+      "fieldType":"string",
+      "id":"tbhdpaymentpur002a_说明 Note_expdetail_8_string_t1_$$A",
+      "name":"说明 Note",
+      "readable":true,
+      "seq":8,
+      "type":"string",
+      "writable":true
+    }
+  ],
+  "tableName":"tbhdpaymentpur002a"
+}

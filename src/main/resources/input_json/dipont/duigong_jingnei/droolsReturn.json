@@ -1,0 +1,37 @@
+[
+  {
+    "ioitem": "100102",
+    "costcenter": "01010101",
+    "project": "0101",
+    "amount": "1",
+    "ruleno": "1",
+    "concurrent": "bingfa,a,b"
+  },
+  {
+    "ioitem": "100201",
+    "costcenter": "01010101",
+    "project": "0102",
+    "amount": "2",
+    "ruleno": "2",
+    "verifierfirst": "verifierfirst"
+  },
+  {
+    "ioitem": "100301",
+    "costcenter": "01010101",
+    "project": "0201",
+    "amount": "3",
+    "ruleno": "3",
+    "verifierfirst": "first",
+    "verifiersecond": "second",
+    "verifierthird": "third"
+  },
+  {
+    "ioitem": "100401",
+    "costcenter": "01010101",
+    "project": "030101010001",
+    "amount": "4",
+    "ruleno": "4",
+    "verifierfirst": "bpm@dipont.com",
+    "reverifierfirst": "a,b,c"
+  }
+]
