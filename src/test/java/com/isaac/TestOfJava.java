@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestPlace {
+public class TestOfJava {
 
     static boolean includeItem(Map map, String items) {
         if (items.equals("all")) {
